@@ -43,7 +43,7 @@ We created  a sentiment score for each article using a ROBERTA-Base model fine-t
 To test our hypotheses, we performed three two-sample t-tests, two of which compared the average sentiment within each category of data source (news vs. Reddit) and one compared the average sentiment between the two categories. In all three cases, we failed to reject the null hypothesis, meaning that we did not find a statistically significant difference between the average sentiment between or within categories. 
 To investigate the overall trend of sentiment further, we also trained a linear regression model to look for an upward or downward trend. While the model had a high accuracy with a low MSE of 0.05, the model was not statistically significant with a low r2 of 0.009, meaning that there was high variance in our data that could not be explained by the model. This means we could not find a definitive upward or downward trend in overall sentiment across the three sources.
 
-The three figures demonstrate the lack of a clear trend in the sentiment ratings across time and various sources. They also show the negative bias among all the sources in which the sentiment ratings tend to be more negative rather than positive.
+The four figures demonstrate the lack of a clear trend in the sentiment ratings across time and various sources. Sentiments across all sources and time periods tended to skew more negative than positive, and time of the year in which the article was posted does not seem to have much of an impact either. For more detailed analysis, see /analysis/writeups/ 
 
 <p align="center">
     Figure 1. Monthly average sentiment rating by source category.
