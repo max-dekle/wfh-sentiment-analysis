@@ -1,8 +1,8 @@
-# Analyzing Attitudes Toward Remote Work
+# Work from Home (WFH) Sentiment Analysis
 
-I created & developed this project alongside three classmates for my Spring 2023 Data Science course. 
+I created & developed this project alongside three classmates (Johnny Boustany, Nick Petrocelli, David Lauerman) for my Spring 2023 Data Science course. 
 
-The prevalence of remote work increased massively from the start of the COVID-19 pandemic in 2020, leading many to write about the policies and their experiences with them, both on social media and in the news. We investigated whether the sentiments in these writings compare and have changed over time. Previously, many businesses began to accommodate work-from-home policies in order to comply with social distancing guidelines. However, recently, some companies have been advocating for a return to the office, despite pushback from their employees. Therefore, we wanted to analyze a diverse set of opinions to see if this was actually true – is remote work really on the decline, or is it here to stay? 
+The prevalence of remote work has increased substantially since the start of the COVID-19 pandemic in 2020, and as a result many articles have been written about it across a variety of sources. We investigated how the sentiments in these writings compare both across sources and time. Initially, many businesses began to accommodate work-from-home policies in order to comply with social distancing guidelines. However, as of late, many companies have been advocating for return to office employment schemes, despite pushback from their employees. Therefore, we wanted to analyze a diverse set of opinions to see if this was actually true – is remote work really on the decline, or is it here to stay? 
 
 *The interactive D3.js web app is live here: https://max-dekle.github.io/wfh-sentiment-analysis/*
 
@@ -41,13 +41,14 @@ We created  a sentiment score for each article using a ROBERTA-Base model fine-t
 ## Analysis
 
 To test our hypotheses, we performed three two-sample t-tests, two of which compared the average sentiment within each category of data source (news vs. Reddit) and one compared the average sentiment between the two categories. In all three cases, we failed to reject the null hypothesis, meaning that we did not find a statistically significant difference between the average sentiment between or within categories. 
-To investigate the overall trend of sentiment further, we also trained a linear regression model to look for an upward or downward trend. While the model had a high accuracy with a low MSE of 0.05, the model was not statistically significant with a low r2 of -0.004, meaning that there was high variance in our data that could not be explained by the model. This means we could not find a definitive upward or downward trend in overall sentiment across the three sources.
+To investigate the overall trend of sentiment further, we also trained a linear regression model to look for an upward or downward trend. While the model had a high accuracy with a low MSE of 0.05, the model was not statistically significant with a low r2 of 0.009, meaning that there was high variance in our data that could not be explained by the model. This means we could not find a definitive upward or downward trend in overall sentiment across the three sources.
 
 The three figures demonstrate the lack of a clear trend in the sentiment ratings across time and various sources. They also show the negative bias among all the sources in which the sentiment ratings tend to be more negative rather than positive.
 
 <p align="center">
     Figure 1. Monthly average sentiment rating by source category.
     <br>
+    <img src="./final_deliverable/visualizations/monthly-ratings.png" height=300 alt="">
     <img src="./assets/graph2.png" height=300 alt="">
 
 </p>
