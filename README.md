@@ -86,13 +86,3 @@ One of the limitations we encountered was how recent the remote work trend has b
 Another challenge we faced was the cleaning of the dataset itself. We wanted to make sure we were consistent across the Guardian, NYT, and Reddit datasets, even though the PLAINTEXT format differed greatly between them. Thus, we had to create multiple custom cleaning functions for each source type in order to effectively combine and analyze them.
 Finally, our sentiment analysis model was less effective on news articles than on social media posts; future work should consider using a separate model with higher efficacy on news text. 
 
-
-## Contributions
-
- I specifically:
- - Retreived The Guardian data from the The Guardian API
- - Conducted hypothesis testing
- - Developed and coded an interactive D3.js web app with 1,150 data points for tracking sentiment trends across media sources
-
-My group members: Max Dekle (mdekle), David Lauerman (dlauerman) & Nicholas Petrocelli (npetroce)
-
