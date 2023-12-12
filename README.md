@@ -4,7 +4,7 @@ I created & developed this project alongside three classmates for my Spring 2023
 
 The prevalence of remote work increased massively from the start of the COVID-19 pandemic in 2020, leading many to write about the policies and their experiences with them, both on social media and in the news. We investigated whether the sentiments in these writings compare and have changed over time. Previously, many businesses began to accommodate work-from-home policies in order to comply with social distancing guidelines. However, recently, some companies have been advocating for a return to the office, despite pushback from their employees. Therefore, we wanted to analyze a diverse set of opinions to see if this was actually true – is remote work really on the decline, or is it here to stay? 
 
-*The interactive D3.js web app is live [here](https://max-dekle.github.io/wfh-sentiment-analysis/).*
+*The interactive D3.js web app is live here: https://max-dekle.github.io/wfh-sentiment-analysis/*
 
 The application allows you to see all the 1,150 data points and click on the article/post associated with each data point.
 Find a preview of the app below:
